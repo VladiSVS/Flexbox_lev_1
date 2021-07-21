@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background: url("https://source.unsplash.com/random") center/cover no-repeat;
+}
+
+a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+main > section > nav {
+    background: rgba(0, 0, 0, 0.7);
+    
+}
+
+main > section > nav > ul {
+    margin: 0;
+    height: 5em;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main > section > nav > ul > li:first-of-type {
+   margin-right: 50%;
+}
+
+main > section > nav > ul > li:last-of-type {
+    margin-right: 5%;
+}
